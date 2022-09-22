@@ -1,0 +1,53 @@
+Una empresa ha adquirido una dirección IP que tiene 16 bits de host
+para su red corporativa. Esta empresa tiene sus máquinas distribuidas
+en 250 subredes. Aunque se prevee que en un futuo cercano haya 50 más.
+
+Cada subred tendrá como máximo 100 hosts. 
+
+Se pide la máscara de subred.
+
+300<=2^n
+
+300<=2^9 -> 250<=512
+
+255.255.0.0/16
+
+255.255.11111111.10000000
+
+Máscara-> 255.255.255.128/25
+
+"".000000000.0
+"".000000001.1
+"".000000011.1
+...
+"".111111110
+"".111111111
+
+Primera y última red disponible.
+
+190.190.1.128/25 - 190.190.1.255
+
+Rango de direcciones de host para la primera y última de las subredes
+disponibles.
+
+
+X.Y.255.128
+
+
+255.255.255.10000000
+
+X.Y.0.0/25 
+255.255.255.128
+
+X.Y.0.127/25
+
+
+X.Y.255.128/25
+X.Y.255.255/25
+
+
+
+
+
+
+

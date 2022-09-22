@@ -1,0 +1,32 @@
+Sabiendo esta dirección IP con 8 bits para el host.
+
+11010001.11011000.00110111.00000011
+
+A- Pasadla a decimal. 
+
+209.216.55.3/24
+
+B- Cuál es la dirección de red.
+
+209.216.55.0/24
+
+C- Cuál es el primer equipo disponible.
+
+209.216.55.1/24
+
+D- Cuál es el bc de la red.
+
+209.216.55.255/24
+
+E- Última red disponible.
+
+209.216.55.254/24
+
+F- Máscara en CIDR.
+
+255.255.255.0 y/o /24
+
+G- Cuántos equipos puede tener la red.
+
+254
+
